@@ -21,17 +21,18 @@ Connect the NodeMCU and the DHT 11 to the breadboard, depending on your model of
 After setting up the hardware, we need to configure and set up Qubitro to receive data from our device, to access the Qubitro portal, head over to www.qubitro.com, there you will be presented with Qubitro homepage, here you can read more on Qubitro services, the documentation and API supports. Qubitro supports different connectivity protocols, we shall be looking at them later, a heads up, we will be using MQTT protocol for this tutorial.
 
 
-![image](https://user-images.githubusercontent.com/55460620/169425324-52faacba-b23d-4b61-ba23-531b403fd196.png)
+![image](https://user-images.githubusercontent.com/55460620/169426317-bb45b61e-0ce8-464d-8bd1-812a7a819d97.png)
 
-Step 4: To be able to access Qubitro developement dshboard, we need to login into the Qubitro portal, on the Qubitro homepage, click on Go to portal at the top right hand corner. If you do not have an account, you will be prompted to create one and if you are a returning user just sign in into your account.
+# Step 4: 
+To be able to access Qubitro developement dshboard, we need to login into the Qubitro portal, on the Qubitro homepage, click on Go to portal at the top right hand corner. If you do not have an account, you will be prompted to create one and if you are a returning user just sign in into your account.
 
-![image](https://user-images.githubusercontent.com/55460620/169425442-37a9504b-3658-48f1-ae40-fb227b468b73.png)
+![image](https://user-images.githubusercontent.com/55460620/169426338-66e48af8-6687-490e-b8dd-74a09d9ce61a.png)
 
  
 After signing in, you will be presented with the Qubitro main interface where we can see all projects created. The left hand pannel contains contains all controls regarding our projects, Creating a new project, Monitoring, documentation, uage and billing etc. What we want to do is to create a new project and new devices inside this project that will link to our actual hardware.
 Step 5: To create a new project, click on New Project, and you will be directed to fill in the project name and project description. Give your project a name and a better description that matches your project requirements. After filling in the two, click on Create Project.
 
-![image](https://user-images.githubusercontent.com/55460620/169425483-31e09bce-1055-4ad6-b05a-e3b046a7117a.png)
+![image](https://user-images.githubusercontent.com/55460620/169426441-fd293c46-8981-43c0-84a4-b86b48aa8348.png)
 
 # Step 6: 
 After successfully creating a project, you will need to choose a connectivity method between your actual device and Qubitro platform. Various options are available to choose from: MQTT, HTTP, The things stack, Golioth, actility etc. Since we are using ESP8266 in this tutorial, the best option for us is the MQTT therefore select MQTT an click on Continue.
